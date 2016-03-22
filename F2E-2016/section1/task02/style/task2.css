@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align: baseline;
+	 font-family:'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'Lucida Grande', 'Luxi Sans', Arial, sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers*/
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section{
+	display:block;
+}
+body{
+	line-height:1;
+}
+ul{
+	list-style: none;
+}
+blockquote ,q{
+	quotes:none;
+}
+
+blockquote:before, blockquote:after, a:before, q:after{
+	content:'';
+	content:none;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	text-decoration:none;
+}
+
+/* body */
+body{
+	background-color: #dedede;
+	min-width:474px;
+}
+
+/* header */
+header.header, footer{
+	height: 60px;
+	width:100%;
+	position:relative;
+	background-color: #333;
+}
+
+header.header h1{
+	left:0;
+	top:0;
+	z-index: 1;
+	width:120px;
+	position:absolute;
+	padding:9px 24px;
+}
+
+/* nav */
+nav ul{
+	position: absolute;
+	right:14px;
+	top:0;
+}
+
+nav ul li{
+	font-size: 14px;
+	padding:18px 10px;
+	display: inline-block;
+}
+
+nav ul li a{
+	color:#fff;
+}
+
+nav ul li a:hover{
+	color:#cecece;
+}
+
+/* main */
+main>article, main>section, aside{
+	margin:20px 20px 0;
+	padding:40px 20px;
+	background-color: #fff;
+	border:1px solid #cecece;
+	box-shadow:2px 2px #9a9a9a;
+}
+
+main h2, main>section h2{
+	line-height:1.5em;
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom:22px;
+}
+
+main h3{
+	line-height: 1.5me;
+	color:#8a8a8a;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+main address{
+	color:#9a9a9a;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+main section p, main section ul li, main section ol li{
+	line-height:1.8em;
+}
+
+main section p{
+	text-indent: 2em;
+}
+
+main section ul{
+	margin-left: 2em;
+}
+
+main section>img{
+	margin:20px 0;
+	max-width: 100%;
+}
+
+.img_1{
+	width:250px;
+	height:260px;
+}
+
+figure{
+	width:124px;
+	height:124px;
+	font-size: 14px;
+	line-height: 24px;
+	margin:16px 40px 0;
+	text-align: center;
+	border:1px solid #cbcbcb;
+}
+
+figure img{
+	width:90px;
+	height:94px;
+	vertical-align: middle;
+}
+
+/* table */
+table{
+	border:1px solid #cbcbcb;
+	width:100%;
+	font-size: 14px;
+}
+
+th, td{
+	border:1px solid #cbcbcb;
+	text-align: left;
+	padding:6px;
+}
+
+th{
+	background-color: #333;
+	font-weight: bold;
+	color: #fff;
+}
+
+tfoot td{
+	background-color: #cbcbcb;
+	font-weight: bold;
+}
+
+/* asdie*/
+
+aside h2{
+	line-height: 1.5em;
+	margin: -20px 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+	padding:14px;
+	border-left: 4px solid #cbcbcb;
+}
+
+form .form-box{
+	width: 378px;
+	font-size: 14px;
+	padding: 7px;	
+	margin:0 auto;
+	position: relative;	
+}
+
+.form-box>div{
+	padding:7px;
+	font-size: 14px;
+	margin:5px;
+}
+
+
+.form-box>div>label{
+	position: absolute;
+	right:285px;
+	
+}
+
+.form-box input,p, textarea{	
+	line-height: 18px;
+	margin-left: 100px;
+}
+
+.form-box input[type="checkbox"]{
+	margin-left: 10px;
+	
+}
+
+.form-box input[type="radio"]{
+	margin-left: 10px;
+}
+
+.hobby-in{
+	position: relative;
+	left:95px;
+}
+
+.sex-in{
+	position: relative;
+	left:95px;
+}
+
+#id_city{
+	position: relative;
+	left:105px;
+}
+
+form .tips{
+	color:#cbcbcb;
+	position: relative;
+	left:0px;
+	top:5px;
+	
+}
+
+
+form button{
+	width:100%;
+	color:#fff;
+	background-color: #78a5f2;
+	padding:10px 7px;
+	font-weight: bold;
+	font-size:18px;
+	border:none;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	margin-top: 10px;
+}
