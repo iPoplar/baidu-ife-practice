@@ -1,0 +1,55 @@
+#wrap{
+	overflow: hidden;
+	background:#eee;
+	zoom:1;
+}
+
+#col-left, #col-right, #col-container{
+	background: #fff;
+}
+
+
+#col-left{
+	float:left;
+	width:200px;
+	margin-right: 20px;
+}
+
+#col-left .team{	
+	font-size: 14px;
+	font-weight: bold;
+	padding:20px 8px;
+}
+
+.team span{
+	vertical-align:top;
+}
+
+#col-container{
+	overflow: hidden;
+}
+
+#col-right {
+	float: right;
+	width:120px;
+	margin-left: 20px;
+}
+
+#col-right img{
+
+	margin-bottom: 20px;
+}
+
+div, img{
+	border:1px solid #999;
+	box-sizing: border-box;
+}
+
+div{
+	padding:20px;	
+}
+
+img{
+	width:80px;
+	height: 80px;
+}
