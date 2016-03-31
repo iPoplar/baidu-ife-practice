@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family:'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', 'Lucida Grande', 'Luxi Sans', Arial, sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/*********************/
+
+header, main, footer, section{
+    width:892px;
+    margin:0 auto;
+}
+
+body{
+    background-color: #5e5e5e;
+}
+
+/* container */
+.container{
+    width:980px;
+    height:1386px;
+    background-color: #fff;
+    margin:0 auto;
+}
+
+/* header */
+header{
+    height:61px;
+    font-size:12px;
+    font-family: SimHei;
+    letter-spacing: 0.1em;
+    position:relative;
+    border-bottom:2px solid #938e8c;
+}
+header div{
+    width:110px;
+    height: 61px;
+    background-color:#d45d5c;
+}
+header div, header span{
+    display: inline-block;
+}
+header span{
+    margin:44px 0px 5px 8px;
+    color:#fff;
+}
+header>span{
+    color:#d45d5c;
+    position: absolute;
+    right:0;
+}
+section{
+    position: relative;
+    margin:30px auto;
+}
+
+section .se1-lt{
+    padding-bottom: 30px;
+}
+.img1{
+    width:641px;
+    height: 301px;
+    margin-bottom: 30px;
+    position: relative;
+    background:url(../img/ltbig.jpg);
+    display: inline-block;
+}
+.img1 div{
+    width:191px;
+    height: 301px;
+    position: absolute;
+    display: inline-block;
+}
+.img1 div:first-child{
+    left:0;
+}
+.img1 div:last-child{
+    right: 0;
+}
+.green{ 
+    background-color: rgba(117,184,107,.3);  
+}
+.red{
+ background-color: rgba(212,93,92,.3);  
+}
+.arti div{
+    display: inline-block;
+    vertical-align: top;
+}
+.arti .part1{
+    width:228px;
+}
+.arti .part2{
+    width:204px;
+    margin:0 26px;
+}
+.arti .part3{
+    width:157px;
+}
+.arti .part3 p{
+    line-height: 1.8em;
+}
+.arti .part3 ul{
+    margin-top: 30px;
+}
+.arti .part3 ul li{
+    font-size: 12px;
+    color: rgba(35,24,21,.7);
+    line-height: 16px;
+    font-family: 'Microsoft YaHei'; 
+}
+.arti .part3 ul li span{
+    color: rgba(205,74,72,.7);
+}
+.arti h3{
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-decoration:underline;
+    font-family: 'Microsoft YaHei'; 
+    font-size: 16px;
+}
+.arti p{
+    font-family: SimSun;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(118, 119, 119, .7);
+}
+.darkGreen{
+    color: #418c59;
+}
+.darkYellow{
+    color: #d2994f;
+}
+.darkRed{
+    color: #cc7680;
+}
+.se1-exp{
+    width:203px;
+    display: inline-block;
+    position: absolute;
+    top:0;
+    right:0;
+    border-top:2px solid #cc8091;
+}
+.se1-exp p.tit{
+    font-size: 24px;
+    font-family: 'Microsoft YaHei';
+    color:#000;
+    text-decoration: underline;
+    line-height: 40px;
+}
+.se1-exp p.tit:first-letter{
+    font-size: 120%;
+    font-weight: bold;
+}
+.se1-exp p.subTit{
+    font-size: 12px;
+    font-family: KaiTi;
+    line-height: 10px;
+    color:#676767;
+}
+.se1-exp p.count{
+    font-size: 116px;
+    color:#75b86b;
+    font-family: 'Microsoft YaHei';
+    font-style: oblique;
+    margin-top:30px;
+}
+.se1-exp div{
+    font-family: 'Microsoft YaHei';
+    color:#cc8091;
+}
+.se1-exp div.left{
+    font-size: 55px;
+    padding-left: 20px;
+    padding-right: 4px;
+}
+.se1-exp div.right{
+    width:94px;
+    line-height: 12px;
+}
+.se1-exp span.top{
+    font-size: 21px;
+}
+.se1-exp span.bottom{
+    font-size: 12px;
+}
+.se1-exp div, .se1-exp span{
+    display: inline-block;
+}
+.se2-lt{
+    display: inline-block;
+    width:415px;
+}
+.se2-lt h2{
+    color:#11456b;
+    word-wrap:break-word;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: SimHei;
+}
+.se2-lt h2>span{
+    color:#f5e327;
+    font-size: 72px;
+    font-style: oblique;    
+}
+.se2-lt h2.title{
+    font-size: 33px;
+    padding:10px 0 18px;
+    margin-bottom: 24px;
+    border-bottom: 2px solid #11456b;
+}
+.se2-lt p{
+    line-height: 16px;
+    font-size: 12px;
+    color:#767777;
+    font-family: SimSun;
+}
+.se2-lt p.first:first-letter{
+    padding-right: 7px;
+    margin-left: -5px;
+    line-height: 1em;
+    font-size: 70px;
+    float: left;
+    color:#f5e327;
+    font-family: 'Microsoft YaHei';
+}
+.se2-lt p.para{
+    text-indent: 2em;
+}
+.se2-lt img{
+    padding:18px 8px 14px 16px;
+    float:right;
+}
+.se2-rt{
+    display: inline-block;
+    width:458px;
+    position: absolute;
+    top:20px;
+    right:0;
+}
+.se2-rt .img2{
+    position: relative;
+}
+.se2-rt .imgdesp{
+    box-sizing:border-box;
+    position: absolute;
+    width:458px;
+    height: 61px;
+    line-height: 44px;
+    padding:9px 26px 8px;
+    background-color: rgba(0,0,0,.3);
+    left:0;
+    bottom:3px;
+}
+.se2-rt .imgdesp span{
+    font-family: 'Microsoft YaHei';
+}
+.se2-rt .imgdesp span.imgTitle{
+    color:#fff;
+    font-size: 26px;
+    padding:4px 12px;
+    border-left: 3px solid #72b16a;
+}
+.se2-rt .imgdesp span.imgSubTitle{
+    color: #72b16a;
+    font-style: oblique;
+    font-size: 12px;
+}
+.se2-rt .rt-bott{
+    width:495px;
+    height:318px;
+    background-color: #eeedd6;
+    position:relative;
+    box-sizing:border-box;
+    margin-top:28px;
+    padding:30px 20px 30px 30px;
+}
+.se2-rt .rt-bott p{
+    font-size: 16px;
+    color:#5a5b5b;
+    line-height: 36px;
+    font-family: 'SimSun';
+}
+.rt-bott p span:last-child{
+    font-size: 12px;
+    font-style: oblique;
+    text-align: right;
+}
+.se2-rt .se2-rt-quote{
+    box-sizing:border-box;
+    width:199px;
+    height:160px;
+    position: absolute;
+    padding:18px;
+    right:0;
+    bottom:0;
+}
+.se2-rt-quote span.qm{
+    position:absolute;
+    font-family: 'SimHei';
+    font-style: normal;
+    font-size: 72px;
+    color:#d45d5c;
+}
+.se2-rt-quote span.qm:first-child{
+    left:-63px;
+    top:34px;
+}
+.se2-rt-quote span.qm:last-child{
+    right:-21px;
+    bottom: 17px;
+}
+.se2-rt-quote p.quote{
+    text-indent: 42px;
+    font-size: 14px;
+    font-style: oblique;
+    color:#5a5b5b;
+    font-family: 'SimHei';
+    line-height: 16px;
+}
+.se2-rt-red{
+    width:260px;
+    height:160px;
+    padding:40px 8px 34px;
+    box-sizing:border-box;
+    position: absolute;
+    left:0;
+    bottom:0;
+    background-color: #d45d5c;
+}
+.redL, .redR{
+    display: inline-block;
+    color:#fff;
+}
+.redL{
+    font-size: 110px;
+    line-height: 86px;
+    font-family: 'Microsoft YaHei';
+}
+.redR{
+    width:158px;
+    height:86px;
+    position:absolute;
+    left:76px;
+    bottom:32px;
+    border-left:2px solid #fff;
+    padding-left: 10px;
+}
+.redRT{
+    font-size: 21px;
+    font-family: 'SimHei';
+    font-style: oblique;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+.redRB{
+    font-size: 12px;
+    font-family: 'SimHei';
+}
+.arrow-up{
+    width:0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 7px solid #10456b;
+    display: inline-block;
+}
+.space{
+    margin-right: 8px;
+}
+/* footer */
+footer{
+    height:61px;
+    font-size: 12px;
+    font-family: 'SimHei';
+    letter-spacing: 0.1em;
+    position: relative;
+    border-top: 1px solid #938e8c;
+}
+footer>span{
+    margin:5px 0 44px 8px;
+    position: absolute;
+    right:0;
+    color:#d45d5c;
+}

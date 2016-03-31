@@ -75,6 +75,14 @@ header.header h1{
 	padding:9px 24px;
 }
 
+footer span{
+	z-index: 1;
+	color: #fff;
+	line-height: 60px;
+	position: relative;
+	left:48%;
+}
+
 /* nav */
 nav ul{
 	position: absolute;
